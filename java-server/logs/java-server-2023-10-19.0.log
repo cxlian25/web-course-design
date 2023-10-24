@@ -1,0 +1,375 @@
+2023-10-19 20:07:18,650 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-10-19 20:07:18,665 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 啦啦啦 with PID 28676 (D:\web\teach-web\java-server\target\classes started by 19414 in D:\web\teach-web\java-server)
+2023-10-19 20:07:18,666 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-10-19 20:07:20,288 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-10-19 20:07:20,289 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 20:07:20,408 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 108 ms. Found 20 JPA repository interfaces.
+2023-10-19 20:07:20,798 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@32177fa5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 20:07:20,802 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 20:07:21,167 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-10-19 20:07:21,187 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-10-19 20:07:21,188 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-10-19 20:07:21,188 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-10-19 20:07:21,271 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-10-19 20:07:21,271 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2568 ms
+2023-10-19 20:07:21,381 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-19 20:07:21,444 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-10-19 20:07:21,672 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-10-19 20:07:21,727 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 20:07:21,801 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-19 20:07:21,921 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-19 20:07:22,049 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-10-19 20:07:22,718 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 20:07:22,724 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:07:24,045 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-10-19 20:07:24,169 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c928399, org.springframework.security.web.context.SecurityContextPersistenceFilter@2fcad739, org.springframework.security.web.header.HeaderWriterFilter@99774ec, org.springframework.web.filter.CorsFilter@1bcca516, org.springframework.security.web.authentication.logout.LogoutFilter@1e9a10e9, org.fatmansoft.teach.security.jwt.AuthTokenFilter@c3ca482, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79a92277, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d3faf1d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cef23a8, org.springframework.security.web.session.SessionManagementFilter@5cf6ba1c, org.springframework.security.web.access.ExceptionTranslationFilter@386ea60f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@306c8e09]
+2023-10-19 20:07:24,420 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-10-19 20:07:24,458 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-19 20:07:24,466 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 6.273 seconds (JVM running for 6.708)
+2023-10-19 20:07:24,469 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-10-19 20:07:24,557 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-10-19 20:07:38,645 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-19 20:07:38,646 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-10-19 20:07:38,648 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-10-19 20:07:39,205 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:38,0.532
+2023-10-19 20:07:44,675 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:44,0.003
+2023-10-19 20:07:45,272 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:45,0.008
+2023-10-19 20:07:45,607 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:45,0.003
+2023-10-19 20:07:46,116 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:46,0.017
+2023-10-19 20:07:46,304 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:46,0.021
+2023-10-19 20:07:46,369 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:46,0.009
+2023-10-19 20:07:46,563 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:46,0.005
+2023-10-19 20:07:47,279 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:47,0.003
+2023-10-19 20:07:47,584 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:47,0.006
+2023-10-19 20:07:48,348 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:48,0.006
+2023-10-19 20:07:48,629 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:48,0.005
+2023-10-19 20:07:49,497 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:49,0.0
+2023-10-19 20:07:49,768 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:49,0.013
+2023-10-19 20:07:50,560 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:50,0.003
+2023-10-19 20:07:50,827 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:50,0.0
+2023-10-19 20:07:51,315 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:51,0.006
+2023-10-19 20:07:52,086 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:52,0.004
+2023-10-19 20:07:52,336 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:52,0.004
+2023-10-19 20:07:52,757 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:52,0.004
+2023-10-19 20:07:53,505 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:53,0.003
+2023-10-19 20:07:53,829 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:53,0.007
+2023-10-19 20:07:57,538 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 20:07:57,0.002
+2023-10-19 20:07:57,805 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:07:57,0.005
+2023-10-19 20:09:12,066 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:09:12,068 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-10-19 20:09:12,069 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-10-19 20:10:03,326 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-10-19 20:10:03,332 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 啦啦啦 with PID 29544 (D:\web\teach-web\java-server\target\classes started by 19414 in D:\web\teach-web\java-server)
+2023-10-19 20:10:03,333 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-10-19 20:10:04,048 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-10-19 20:10:04,050 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 20:10:04,148 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 93 ms. Found 20 JPA repository interfaces.
+2023-10-19 20:10:04,569 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@574b7f4a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 20:10:04,574 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 20:10:05,145 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-10-19 20:10:05,166 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-10-19 20:10:05,166 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-10-19 20:10:05,167 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-10-19 20:10:05,257 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-10-19 20:10:05,257 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1877 ms
+2023-10-19 20:10:05,383 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-19 20:10:05,435 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-10-19 20:10:05,629 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-10-19 20:10:05,717 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 20:10:05,834 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-19 20:10:06,041 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-19 20:10:06,147 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-10-19 20:10:06,763 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 20:10:06,768 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:10:08,132 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-10-19 20:10:08,278 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6662974a, org.springframework.security.web.context.SecurityContextPersistenceFilter@14091e24, org.springframework.security.web.header.HeaderWriterFilter@52b7c1d9, org.springframework.web.filter.CorsFilter@4fce655d, org.springframework.security.web.authentication.logout.LogoutFilter@16e3d6d0, org.fatmansoft.teach.security.jwt.AuthTokenFilter@582b14e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@408980aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4202bfe8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@df5f657, org.springframework.security.web.session.SessionManagementFilter@644c3590, org.springframework.security.web.access.ExceptionTranslationFilter@47bbf44d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c149539]
+2023-10-19 20:10:08,552 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-10-19 20:10:08,587 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-19 20:10:08,595 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 5.659 seconds (JVM running for 6.022)
+2023-10-19 20:10:08,598 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-10-19 20:10:08,662 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-10-19 20:10:11,936 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-19 20:10:11,936 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-10-19 20:10:11,937 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 0 ms
+2023-10-19 20:10:12,205 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:11,0.256
+2023-10-19 20:10:12,269 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:12,0.013
+2023-10-19 20:10:13,806 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:13,0.015
+2023-10-19 20:10:14,273 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:14,0.014
+2023-10-19 20:10:15,116 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:15,0.004
+2023-10-19 20:10:15,392 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:15,0.013
+2023-10-19 20:10:16,181 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:16,0.015
+2023-10-19 20:10:16,428 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:16,0.008
+2023-10-19 20:10:16,859 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:16,0.019
+2023-10-19 20:10:17,654 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:17,0.003
+2023-10-19 20:10:17,923 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:17,0.018
+2023-10-19 20:10:18,378 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:18,0.019
+2023-10-19 20:10:19,140 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:19,0.015
+2023-10-19 20:10:19,390 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:19,0.014
+2023-10-19 20:10:19,757 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:19,0.014
+2023-10-19 20:10:20,469 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:10:20,0.004
+2023-10-19 20:11:15,287 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:11:15,0.005
+2023-10-19 20:11:22,710 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:11:22,0.015
+2023-10-19 20:11:23,161 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:11:23,0.015
+2023-10-19 20:11:23,898 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:11:23,0.01
+2023-10-19 20:11:24,151 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:11:24,0.016
+2023-10-19 20:11:24,603 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:11:24,0.017
+2023-10-19 20:11:25,360 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:11:25,0.015
+2023-10-19 20:11:26,245 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:11:26,0.007
+2023-10-19 20:13:08,235 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:13:08,0.016
+2023-10-19 20:15:09,495 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:15:09,0.011
+2023-10-19 20:15:44,156 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:15:44,0.015
+2023-10-19 20:15:44,819 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:15:44,0.013
+2023-10-19 20:20:19,100 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:20:19,0.005
+2023-10-19 20:22:37,784 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:37,0.007
+2023-10-19 20:22:38,506 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:38,0.014
+2023-10-19 20:22:38,612 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:38,0.014
+2023-10-19 20:22:38,764 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:38,0.014
+2023-10-19 20:22:38,953 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:38,0.016
+2023-10-19 20:22:39,660 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:39,0.013
+2023-10-19 20:22:39,927 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:39,0.013
+2023-10-19 20:22:40,159 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:40,0.017
+2023-10-19 20:22:40,863 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:40,0.008
+2023-10-19 20:22:41,121 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:41,0.013
+2023-10-19 20:22:41,376 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:41,0.017
+2023-10-19 20:22:42,091 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:42,0.013
+2023-10-19 20:22:42,353 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:42,0.015
+2023-10-19 20:22:42,587 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:42,0.014
+2023-10-19 20:22:43,326 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:43,0.012
+2023-10-19 20:22:43,570 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:43,0.004
+2023-10-19 20:22:43,756 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:22:43,0.008
+2023-10-19 20:23:20,617 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:23:20,0.013
+2023-10-19 20:23:40,993 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:23:40,0.008
+2023-10-19 20:26:08,202 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:26:08,0.016
+2023-10-19 20:26:09,090 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:26:09,0.017
+2023-10-19 20:26:09,534 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:26:09,0.017
+2023-10-19 20:26:10,251 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:26:10,0.015
+2023-10-19 20:26:10,681 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:26:10,0.014
+2023-10-19 20:26:11,404 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:26:11,0.002
+2023-10-19 20:26:11,674 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:26:11,0.016
+2023-10-19 20:26:12,521 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:26:12,0.014
+2023-10-19 20:29:05,806 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:29:05,0.004
+2023-10-19 20:29:06,540 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:29:06,0.004
+2023-10-19 20:29:06,805 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:29:06,0.004
+2023-10-19 20:29:07,134 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:29:07,0.003
+2023-10-19 20:31:20,688 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:31:20,690 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-10-19 20:31:20,692 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-10-19 20:31:23,959 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-10-19 20:31:23,967 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 啦啦啦 with PID 3020 (D:\web\teach-web\java-server\target\classes started by 19414 in D:\web\teach-web\java-server)
+2023-10-19 20:31:23,968 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-10-19 20:31:24,671 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-10-19 20:31:24,672 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 20:31:24,774 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 96 ms. Found 20 JPA repository interfaces.
+2023-10-19 20:31:25,135 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1886991b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 20:31:25,141 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 20:31:25,487 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-10-19 20:31:25,498 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-10-19 20:31:25,498 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-10-19 20:31:25,499 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-10-19 20:31:25,607 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-10-19 20:31:25,608 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1602 ms
+2023-10-19 20:31:25,704 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-19 20:31:25,753 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-10-19 20:31:25,902 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-10-19 20:31:26,016 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 20:31:26,128 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-19 20:31:26,280 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-19 20:31:26,404 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-10-19 20:31:27,038 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 20:31:27,044 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:31:28,401 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-10-19 20:31:28,554 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bcca516, org.springframework.security.web.context.SecurityContextPersistenceFilter@45cddfd3, org.springframework.security.web.header.HeaderWriterFilter@2351255a, org.springframework.web.filter.CorsFilter@cef23a8, org.springframework.security.web.authentication.logout.LogoutFilter@36017835, org.fatmansoft.teach.security.jwt.AuthTokenFilter@377cbdae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51d76ad3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77b01226, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@762d2e4c, org.springframework.security.web.session.SessionManagementFilter@5608e254, org.springframework.security.web.access.ExceptionTranslationFilter@4a7c8cb7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@87df88d]
+2023-10-19 20:31:28,846 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-10-19 20:31:28,907 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-19 20:31:28,916 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 5.359 seconds (JVM running for 5.69)
+2023-10-19 20:31:28,920 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-10-19 20:31:29,008 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-10-19 20:35:25,641 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:35:25,642 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-10-19 20:35:25,645 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-10-19 20:35:28,912 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-10-19 20:35:28,919 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 啦啦啦 with PID 7120 (D:\web\teach-web\java-server\target\classes started by 19414 in D:\web\teach-web\java-server)
+2023-10-19 20:35:28,919 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-10-19 20:35:29,582 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-10-19 20:35:29,583 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 20:35:29,682 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 94 ms. Found 20 JPA repository interfaces.
+2023-10-19 20:35:30,039 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@65f651eb' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 20:35:30,042 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 20:35:30,441 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-10-19 20:35:30,455 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-10-19 20:35:30,455 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-10-19 20:35:30,455 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-10-19 20:35:30,547 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-10-19 20:35:30,547 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1589 ms
+2023-10-19 20:35:30,677 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-19 20:35:30,736 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-10-19 20:35:30,901 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-10-19 20:35:30,984 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 20:35:31,111 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-19 20:35:31,262 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-19 20:35:31,395 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-10-19 20:35:32,074 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 20:35:32,081 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:35:33,670 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-10-19 20:35:33,806 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5006a697, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a4f1bc5, org.springframework.security.web.header.HeaderWriterFilter@598ff2b3, org.springframework.web.filter.CorsFilter@193792e6, org.springframework.security.web.authentication.logout.LogoutFilter@40b678b3, org.fatmansoft.teach.security.jwt.AuthTokenFilter@6d658aa8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@89ff043, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5687ade6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21f9a305, org.springframework.security.web.session.SessionManagementFilter@43414b88, org.springframework.security.web.access.ExceptionTranslationFilter@5aa5b3af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@938e54a]
+2023-10-19 20:35:34,104 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-10-19 20:35:34,145 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-19 20:35:34,152 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 5.624 seconds (JVM running for 5.95)
+2023-10-19 20:35:34,155 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-10-19 20:35:34,228 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-10-19 20:35:37,412 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-19 20:35:37,412 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-10-19 20:35:37,413 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-10-19 20:35:37,678 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:35:37,0.251
+2023-10-19 20:35:38,116 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:35:38,0.004
+2023-10-19 20:35:38,998 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:35:38,0.004
+2023-10-19 20:35:39,374 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:35:39,0.004
+2023-10-19 20:35:40,283 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:35:40,0.004
+2023-10-19 20:35:40,614 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:35:40,0.004
+2023-10-19 20:42:35,968 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 20:42:35,0.004
+2023-10-19 20:42:35,988 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:42:35,0.004
+2023-10-19 20:42:43,257 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 20:42:43,0.0
+2023-10-19 20:42:43,770 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-10-19 20:42:43,0.256
+2023-10-19 20:42:43,805 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-10-19 20:42:43,0.014
+2023-10-19 20:42:44,126 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-10-19 20:42:44,0.023
+2023-10-19 20:42:44,266 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-10-19 20:42:44,0.013
+2023-10-19 20:49:17,459 [http-nio-9090-exec-3] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-10-19 20:49:17,459 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-10-19 20:49:17,0.001
+2023-10-19 20:49:17,487 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:49:17,0.015
+2023-10-19 20:49:28,411 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 20:49:28,0.002
+2023-10-19 20:49:28,440 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:49:28,0.015
+2023-10-19 20:49:33,780 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 20:49:33,0.0
+2023-10-19 20:49:34,123 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-10-19 20:49:34,0.086
+2023-10-19 20:49:34,146 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-10-19 20:49:34,0.012
+2023-10-19 20:49:34,460 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-10-19 20:49:34,0.011
+2023-10-19 20:49:34,797 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-10-19 20:49:34,0.0
+2023-10-19 20:49:38,022 [http-nio-9090-exec-4] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-10-19 20:49:38,023 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-10-19 20:49:38,0.002
+2023-10-19 20:49:38,341 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:49:38,0.015
+2023-10-19 20:49:43,104 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:49:43,0.016
+2023-10-19 20:49:47,396 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 20:49:47,0.002
+2023-10-19 20:49:47,480 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-10-19 20:49:47,0.077
+2023-10-19 20:49:47,518 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-10-19 20:49:47,0.012
+2023-10-19 20:49:47,526 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-10-19 20:49:47,0.01
+2023-10-19 20:49:47,597 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-10-19 20:49:47,0.008
+2023-10-19 20:49:49,728 [http-nio-9090-exec-1] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-10-19 20:49:49,729 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-10-19 20:49:49,0.0
+2023-10-19 20:49:49,749 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:49:49,0.014
+2023-10-19 20:50:12,539 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 20:50:12,0.002
+2023-10-19 20:50:12,621 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-10-19 20:50:12,0.074
+2023-10-19 20:50:12,643 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-10-19 20:50:12,0.012
+2023-10-19 20:50:12,960 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-10-19 20:50:12,0.007
+2023-10-19 20:50:13,315 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-10-19 20:50:13,0.006
+2023-10-19 20:50:14,083 [http-nio-9090-exec-8] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-10-19 20:50:14,083 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-10-19 20:50:14,0.001
+2023-10-19 20:50:14,402 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:50:14,0.003
+2023-10-19 20:55:00,416 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 20:55:00,0.001
+2023-10-19 20:55:00,753 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-10-19 20:55:00,0.073
+2023-10-19 20:55:00,780 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-10-19 20:55:00,0.009
+2023-10-19 20:55:01,113 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-10-19 20:55:01,0.011
+2023-10-19 20:55:01,358 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-10-19 20:55:01,0.011
+2023-10-19 20:55:03,833 [http-nio-9090-exec-5] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-10-19 20:55:03,833 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-10-19 20:55:03,0.0
+2023-10-19 20:55:04,151 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:55:04,0.013
+2023-10-19 20:58:17,215 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:58:17,0.006
+2023-10-19 20:58:29,637 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 20:58:29,0.001
+2023-10-19 20:58:29,714 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-10-19 20:58:29,0.072
+2023-10-19 20:58:29,736 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-10-19 20:58:29,0.006
+2023-10-19 20:58:30,061 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-10-19 20:58:30,0.007
+2023-10-19 20:58:30,139 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-10-19 20:58:30,0.006
+2023-10-19 20:58:32,813 [http-nio-9090-exec-4] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-10-19 20:58:32,814 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-10-19 20:58:32,0.001
+2023-10-19 20:58:32,820 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 20:58:32,0.003
+2023-10-19 21:00:45,479 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 21:00:45,0.002
+2023-10-19 21:00:45,759 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:00:45,0.015
+2023-10-19 21:00:49,619 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 21:00:49,0.001
+2023-10-19 21:00:53,755 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 21:00:53,0.0
+2023-10-19 21:00:56,653 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 21:00:56,0.001
+2023-10-19 21:00:57,029 [http-nio-9090-exec-10] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /auth/login:Bad credentials
+2023-10-19 21:00:57,029 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-10-19 21:00:56,0.064
+2023-10-19 21:24:56,861 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:24:56,0.007
+2023-10-19 21:25:02,047 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 21:25:02,0.002
+2023-10-19 21:25:02,075 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:25:02,0.014
+2023-10-19 21:29:42,000 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:29:41,0.015
+2023-10-19 21:29:42,254 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:29:42,0.018
+2023-10-19 21:29:42,470 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:29:42,0.013
+2023-10-19 21:29:43,141 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:29:43,0.016
+2023-10-19 21:29:43,388 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:29:43,0.003
+2023-10-19 21:29:43,587 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:29:43,0.014
+2023-10-19 21:32:42,447 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:32:42,0.006
+2023-10-19 21:38:09,464 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 21:38:09,0.002
+2023-10-19 21:38:09,580 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/registerUser,,2023-10-19 21:38:09,0.11
+2023-10-19 21:38:09,596 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:38:09,0.004
+2023-10-19 21:38:18,588 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 21:38:18,0.001
+2023-10-19 21:38:18,923 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-10-19 21:38:18,0.076
+2023-10-19 21:38:18,951 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300051,2023-10-19 21:38:18,0.007
+2023-10-19 21:38:19,270 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300051,2023-10-19 21:38:19,0.005
+2023-10-19 21:38:19,521 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300051,2023-10-19 21:38:19,0.008
+2023-10-19 21:38:42,385 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300051,2023-10-19 21:38:42,0.024
+2023-10-19 21:38:42,402 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300051,2023-10-19 21:38:42,0.01
+2023-10-19 21:40:01,672 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:40:01,0.005
+2023-10-19 21:40:10,007 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 21:40:10,0.001
+2023-10-19 21:40:10,390 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-10-19 21:40:10,0.076
+2023-10-19 21:40:10,582 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-10-19 21:40:10,0.016
+2023-10-19 21:40:10,734 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-10-19 21:40:10,0.01
+2023-10-19 21:40:10,831 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-10-19 21:40:10,0.006
+2023-10-19 21:40:19,092 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-10-19 21:40:19,0.005
+2023-10-19 21:40:25,277 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-10-19 21:40:25,0.006
+2023-10-19 21:40:26,837 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentPageData,admin,2023-10-19 21:40:26,0.013
+2023-10-19 21:40:35,094 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentPageData,admin,2023-10-19 21:40:35,0.007
+2023-10-19 21:40:36,365 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getDictionaryOptionItemList,admin,2023-10-19 21:40:36,0.025
+2023-10-19 21:40:36,383 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentInfo,admin,2023-10-19 21:40:36,0.009
+2023-10-19 21:41:27,895 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/studentEditSave,admin,2023-10-19 21:41:27,0.032
+2023-10-19 21:41:28,123 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentPageData,admin,2023-10-19 21:41:28,0.005
+2023-10-19 21:42:16,291 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 21:42:16,291 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-10-19 21:42:16,291 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-10-19 21:43:03,228 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-10-19 21:43:03,236 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 啦啦啦 with PID 18220 (D:\web\teach-web\java-server\target\classes started by 19414 in D:\web\teach-web\java-server)
+2023-10-19 21:43:03,237 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-10-19 21:43:04,739 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-10-19 21:43:04,741 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 21:43:04,837 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 89 ms. Found 20 JPA repository interfaces.
+2023-10-19 21:43:05,232 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@25673087' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 21:43:05,236 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-19 21:43:05,610 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-10-19 21:43:05,623 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-10-19 21:43:05,623 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-10-19 21:43:05,623 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-10-19 21:43:05,758 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-10-19 21:43:05,758 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2485 ms
+2023-10-19 21:43:05,908 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-19 21:43:05,973 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-10-19 21:43:06,153 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-10-19 21:43:06,251 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 21:43:06,387 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-19 21:43:06,543 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-19 21:43:06,684 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-10-19 21:43:07,286 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 21:43:07,292 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 21:43:08,883 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-10-19 21:43:09,018 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15d68a50, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cca5ff3, org.springframework.security.web.header.HeaderWriterFilter@c7b100b, org.springframework.web.filter.CorsFilter@a1689e8, org.springframework.security.web.authentication.logout.LogoutFilter@580e01cd, org.fatmansoft.teach.security.jwt.AuthTokenFilter@748aa7dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10664c3d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cb73a92, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bb644dc, org.springframework.security.web.session.SessionManagementFilter@5f7c1de0, org.springframework.security.web.access.ExceptionTranslationFilter@77b01226, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cef23a8]
+2023-10-19 21:43:09,338 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-10-19 21:43:09,407 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-19 21:43:09,418 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 6.556 seconds (JVM running for 10.445)
+2023-10-19 21:43:09,422 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-10-19 21:43:09,630 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-10-19 21:43:49,421 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-19 21:43:49,421 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-10-19 21:43:49,423 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-10-19 21:43:49,902 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:43:49,0.451
+2023-10-19 21:43:49,902 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:43:49,0.451
+2023-10-19 21:55:46,261 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:55:46,0.007
+2023-10-19 21:55:52,533 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 21:55:52,0.005
+2023-10-19 21:55:52,566 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:55:52,0.018
+2023-10-19 21:57:43,418 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 21:57:43,0.006
+2023-10-19 22:00:11,790 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 22:00:11,0.006
+2023-10-19 22:01:36,533 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 22:01:36,0.006
+2023-10-19 22:01:42,727 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-10-19 22:01:42,0.006
+2023-10-19 22:01:42,749 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 22:01:42,0.008
+2023-10-19 22:02:43,530 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 22:02:43,0.007
+2023-10-19 22:03:29,825 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 22:03:29,0.006
+2023-10-19 22:04:46,612 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 22:04:46,0.004
+2023-10-19 22:05:25,025 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 22:05:25,0.005
+2023-10-19 22:05:39,897 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 22:05:39,0.004
+2023-10-19 22:06:07,740 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-10-19 22:06:07,0.005
